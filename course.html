@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>index</title>
+    <title>test</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -44,22 +44,22 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link text-dark" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt text-dark"></i>
                     <span>Dashboard</span></a>
             </li>
 
-            <li style="background-color:#043C8B" class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link text-dark" href="profile.html">
-                    <i class="fas fa-fw fa-cog text-light"></i>
-                    <span style="color: antiquewhite;">Profile</span></a>
+                    <i class="fas fa-fw fa-cog text-dark"></i>
+                    <span>Profile</span></a>
             </li>
 
-            <li class="nav-item">
+            <li style="background-color:#043C8B" class="nav-item active">
                 <a class="nav-link text-dark" href="course.html">
-                    <i class="fas fa-fw fa-wrench text-dark"></i>
-                    <span>Courses</span></a>
+                    <i class="fas fa-fw fa-wrench text-light"></i>
+                    <span style="color: antiquewhite;">Courses</span></a>
             </li>
 
             <li class="nav-item">
@@ -68,8 +68,8 @@
                     <span>Payment</span></a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="test.html">
+            <li class="nav-item ">
+                <a class="nav-link text-dark" href="admission.html">
                     <i class="fas fa-fw fa-folder text-dark"></i>
                     <span>Admission Test</span></a>
             </li>
@@ -304,83 +304,69 @@
 
                 <!-- Begin Page Content -->
 
-                <section class="course">
-                    <br>
-                    <h1>Personal Information</h1>
+                <section class="linear">
+                    <div>
+                        <h1 class="Welcome">Welcome Back</h1>
 
-
-                    <div class="row">
-                        <div class="course-col">
-                            <input type="text" disabled placeholder="FullName">
-                            <input type="text" disabled placeholder="Father Nmae">
-                            <input type="text" disabled placeholder="Email">
-                            <input type="text" disabled placeholder="Contact">
-                            <input type="text" disabled placeholder="CNIC Number">
-                        </div>
-
-
-
-                        <div id="disabled" class="course-col">
-
-                            <input type="text" disabled placeholder="Father CNIC Number     ">
-                            <input type="text" disabled placeholder="Age">
-                            <input type="text" disabled placeholder="Gender">
-                            <input type="text" disabled placeholder="City">
-                            <input type="text" disabled placeholder="Address">
-                        </div>
-
+                        <p class="color">"Congratulations! Your account registration on our portal has been successful.
+                            To proceed
+                            further, we kindly request you to complete your profile, pay the admission fee and attempt
+                            the test. We wish you the best of luck!"</p>
                     </div>
-                    <a id="but" href="profile2.html"><button type="button" class="btn btn-primary">Edit</button></a>
-                    
-                  
-            </section>
+                </section>
+                <div class="card">
+                    <br>
+                    <center> <img id="laptop" src="images/laptop.png" alt="Card Image"></center>
+                    <div class="card-content">
+                        <h1>Currently Not <br> Enrolled in Course</h1>
+                    </div>
+                </div>
+                <a id="buttt" href="courses2.html"><button type="button" class="btn btn-primary">Enroll Now</button></a>
+                <br><br><br>
+                <!-- End of Page Wrapper -->
 
+                <!-- Scroll to Top Button-->
+                <a class="scroll-to-top rounded" href="#page-top">
+                    <i class="fas fa-angle-up"></i>
+                </a>
 
-
-            <!-- End of Page Wrapper -->
-
-            <!-- Scroll to Top Button-->
-            <a class="scroll-to-top rounded" href="#page-top">
-                <i class="fas fa-angle-up"></i>
-            </a>
-
-            <!-- Logout Modal-->
-            <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">Select "Logout" below if you are ready to end your current session.
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                            <a class="btn btn-primary" href="login.html">Logout</a>
+                <!-- Logout Modal-->
+                <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">Select "Logout" below if you are ready to end your current session.
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                                <a class="btn btn-primary" href="login.html">Logout</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Bootstrap core JavaScript-->
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <!-- Bootstrap core JavaScript-->
+                <script src="vendor/jquery/jquery.min.js"></script>
+                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            <!-- Core plugin JavaScript-->
-            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                <!-- Core plugin JavaScript-->
+                <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-            <!-- Custom scripts for all pages-->
-            <script src="js/sb-admin-2.min.js"></script>
+                <!-- Custom scripts for all pages-->
+                <script src="js/sb-admin-2.min.js"></script>
 
-            <!-- Page level plugins -->
-            <script src="vendor/chart.js/Chart.min.js"></script>
+                <!-- Page level plugins -->
+                <script src="vendor/chart.js/Chart.min.js"></script>
 
-            <!-- Page level custom scripts -->
-            <script src="js/demo/chart-area-demo.js"></script>
-            <script src="js/demo/chart-pie-demo.js"></script>
+                <!-- Page level custom scripts -->
+                <script src="js/demo/chart-area-demo.js"></script>
+                <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
